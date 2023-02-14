@@ -3,7 +3,7 @@ import confetti from 'canvas-confetti'
 import { useState } from 'react'
 
 
-import { Square } from './components/Square'
+import Square from './components/Square'
 import { WinnerModal } from './components/WinnerModal'
 import { TURNS } from './constans/constans'
 import { checkEndGame, checkWinner } from './logic/board'

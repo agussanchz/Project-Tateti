@@ -1,6 +1,6 @@
 import React from 'react'
 
-export  function Square({ children, isSelected , updateBoard, index }) {
+export default function Square({ children, isSelected , updateBoard, index }) {
 
   const className = `square ${isSelected ? 'is-selected' : ''}`
 
